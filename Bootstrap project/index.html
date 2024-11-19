@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <title>Creator Academy</title>
+</head>
+<body id="body">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"> 
+                <img src="images/logo.png" alt="academy"/> creator academy
+            </a>
+            <button
+              type="button"
+              class="navbar-toggler"
+              aria-label="Toggler Navigation" 
+              aria-expanded="false" 
+              aria-controls="navMenu" 
+              data-bs-toggle="collapse" 
+              data-bs-target="#navMenu"
+            >
+              <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-items"><a class="nav-link" href="#" aria-current="page">Home</a>
+                </li>
+
+                <li class="nav-items"><a class="nav-link" href="#about" aria-current="page">about</a>
+                </li>
+
+                <li class="nav-items"><a class="nav-link" href="#student" aria-current="page">student</a>
+                </li>
+
+                <li class="nav-items"><a class="nav-link" href="#question" aria-current="page">question</a>
+                </li>
+
+                <li class="nav-items"><a class="nav-link" href="#contact" aria-current="page">contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide container my-5">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div> 
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/slide1.png" class="d-block w-100" alt="Educational platform overview" />
+                <div class="carousel-caption d-none d-sm-block">
+                    <h5 class="fw-bold text-primary">Learn Anywhere</h5>
+                    <p >Access top-notch education resources from the comfort of your home.</p>
+                    <div>
+                        <button class="btn btn-danger me-2">Start</button>
+                        <button class="btn btn-warning">Register</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="carousel-item">
+                <img src="./images/slide2.png" class="d-block w-100" alt="Classroom with instructors" />
+                <div class="carousel-caption d-none d-sm-block">
+                    <h5 class="fw-bold text-primary">Expert Mentoring</h5>
+                    <p >Gain guidance from professionals in your field of interest.</p>
+                    <div>
+                        <button class="btn btn-danger me-2">Start</button>
+                        <button class="btn btn-warning">Register</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="carousel-item">
+                <img src="./images/slide3.png" class="d-block w-100" alt="Self-learning resources" />
+                <div class="carousel-caption d-none d-sm-block">
+                    <h5 class="fw-bold text-primary">Self-Paced Learning</h5>
+                    <p>Explore materials designed to fit your schedule and pace.</p>
+                    <div>
+                        <button class="btn btn-danger me-2">Start</button>
+                        <button class="btn btn-warning">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    
+    <main class="text-center">
+        <section id="about" class="container bg-light my-5 p-3">
+            <h1 class="display-6 text-danger mb-4 text-center">ABOUT US</h1>
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-6 col-lg-4 text-center">
+                    <i class="bi bi-globe-americas display-4 mb-3"></i>
+                    <h4 class="fw-bold">Online Courses</h4>
+                    <p>
+                        Access a wide range of online courses to enhance your skills and knowledge from the comfort of your home.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 text-center">
+                    <i class="bi bi-headset display-4 mb-3"></i>
+                    <h4 class="fw-bold">Fulltime Mentoring</h4>
+                    <p>
+                        Receive round-the-clock mentoring and guidance from industry experts to achieve your learning goals.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 text-center">
+                    <i class="bi bi-book-half display-4 mb-3"></i>
+                    <h4 class="fw-bold">Learn Yourself</h4>
+                    <p>
+                        Explore self-paced learning materials and master new skills independently at your convenience.
+                    </p>
+                </div> 
+            </div>
+        </section>
+        <section id="instructors" class="container bg-dark my-5 p-3">
+            <h2 class="display-6 text-danger">INSTRUCTORS</h2>
+            <div class="row g-3 justify-content-center">
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img src="images/staff1.jpeg" alt="..." class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title">Josh Ren</h5>
+                            <p class="card-text">Expert in Mathematics and Data Science with over 10 years of teaching experience.</p>
+                            <div class="socials d-flex justify-content-around">
+                                <i class="bi bi-facebook text-danger"></i>
+                                <i class="bi bi-instagram text-danger"></i>
+                                <i class="bi bi-twitter-x text-danger"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img src="images/staff2.jpeg" alt="..." class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title">Kevin Lee</h5>
+                            <p class="card-text">A programming mentor with a passion for frontend,backend development and UX design.</p>
+                            <div class="socials d-flex justify-content-around">
+                                <i class="bi bi-facebook text-danger"></i>
+                                <i class="bi bi-instagram text-danger"></i>
+                                <i class="bi bi-twitter-x text-danger"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img src="images/staff3.jpeg" alt="..." class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title">Marry Doe</h5>
+                            <p class="card-text">Specializes in AI and Machine Learning, delivering cutting-edge solutions for students.</p>
+                            <div class="socials d-flex justify-content-around">
+                                <i class="bi bi-facebook text-danger"></i>
+                                <i class="bi bi-instagram text-danger"></i>
+                                <i class="bi bi-twitter-x text-danger"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img src="images/staff4.jpeg" alt="..." class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title">Alex Carter</h5>
+                            <p class="card-text">Renowned educator in business analytics and leadership training for aspiring managers.</p>
+                            <div class="socials d-flex justify-content-around">
+                                <i class="bi bi-facebook text-danger"></i>
+                                <i class="bi bi-instagram text-danger"></i>
+                                <i class="bi bi-twitter-x text-danger"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img src="images/staff5.jpeg" alt="..." class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title">Susan Blake</h5>
+                            <p class="card-text">Passionate about teaching software engineering and DevOps practices for modern systems.</p>
+                            <div class="socials d-flex justify-content-around">
+                                <i class="bi bi-facebook text-danger"></i>
+                                <i class="bi bi-instagram text-danger"></i>
+                                <i class="bi bi-twitter-x text-danger"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <div class="card">
+                        <img src="images/staff6.jpeg" alt="..." class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title">Emily Clark</h5>
+                            <p class="card-text">Focuses on creative writing and communication skills, empowering students with expression.</p>
+                            <div class="socials d-flex justify-content-around">
+                                <i class="bi bi-facebook text-danger"></i>
+                                <i class="bi bi-instagram text-danger"></i>
+                                <i class="bi bi-twitter-x text-danger"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="student" class="container bg-light my-5 p-3">
+            <h2 class="display-6 text-danger">OUR STUDENT</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p>
+                        At creator academy, our students represent a diverse and talented community of future leaders, innovators, and changemakers. With dedication, curiosity, and resilience, they excel in academics, extracurricular activities, and real-world challenges.
+
+From excelling in global competitions to actively contributing to societal causes, our students continuously strive to make a difference. Their journey here is shaped by not just education but also values of teamwork, creativity, and integrity.
+
+We are proud to nurture individuals who aspire to transform their dreams into reality and lead with confidence in their respective fields.</p>
+                        <buttton class="btn btn-danger">Learn More</buttton>
+                </div>
+                <div class="col-md-6">
+                        <img src="images/students.png" alt="student" class="w-75"/>
+                </div>
+            </div>
+                
+        </section>
+        <section id="question" class="container bg-light my-5 p-3">
+            <h2 class="display-6 text-danger text-center mb-4">Frequently Asked Questions</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What programs or courses does the academy offer?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Our academy offers a wide range of programs across various fields, including technology, business management, design, and health sciences. We offer both short-term certificate courses and long-term degree programs. For detailed information, please contact our admissions team for guidance on the right program for you.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    What are the eligibility criteria for admission?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    The eligibility criteria vary depending on the program you are applying for. For undergraduate programs, applicants must have completed high school or equivalent. For postgraduate programs, a relevant undergraduate degree is required. Please refer to the specific course pages for detailed eligibility requirements.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Are there any scholarships or financial aid options available?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Yes, we offer a variety of scholarships and financial aid options for eligible students. These include merit-based scholarships, need-based financial assistance, and discounts for early applicants. For more information on the available scholarships and how to apply, please contact our admissions office.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="images/logo.png" alt="creator academy" class="img-fluid" style="width: 200px; height: auto;" />
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="container bg-light my-5 p-3">
+            <h2 class="display-6 text-danger">CONTACT</h2>
+            <p>"Follow us on social media to keep up with our latest programs, achievements, and announcements."</p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <i class="bi bi-telephone-fill text-danger"></i>
+                    <h4>Telephone</h4>
+                    <a href="#">+90112873</a> 
+                </div>
+                <div class="col-md-4">
+                    <i class="bi bi-whatsapp text-danger"></i>
+                    <h4>Whatsapp</h4>
+                    <a href="#">+91 9384534138</a> 
+                </div>
+                <div class="col-md-4">
+                    <i class="bi bi-envelope text-danger"></i>
+                    <h4>Email</h4>
+                    <a href="#">info@creatoracademy</a> 
+                </div>
+            </div>
+            <form class="row g-3 mt-4">
+                <div class="col-md-6">
+                    <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Enter your name"
+                    />
+                </div>
+                <div class="col-md-6">
+                    <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Enter your email"
+                    />
+                </div>
+                <div class="col-12">
+                    <input
+                    type="text"
+                    class="form-control"
+                    id="subject"
+                    placeholder="Enter your subject"
+                    />
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="from-label">Address 2</label>
+                    <textarea id="inputAddress" class="form-control" placeholder="Enter your Address"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-danger">Submit</button>
+                </div>
+            </form>
+        </section>
+        </main>
+        <footer class="bg-dark text-center text-white p-4">
+            <article>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+            </article>
+            <article class="p-3">
+                &copy;
+                <script>document.write(new Date().getFullYear());
+                </script>
+                Copyright by Creator Academy
+            </article>
+        </footer>
+        <a href="#body" class="up-btn">
+            <i class="bi bi-arrow-up"></i>
+        </a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
+</html>
